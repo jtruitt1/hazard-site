@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Larsseit';
+	src: url("https://www.swarthmore.edu/sites/default/themes/swarthmore_bluecadet/fonts/Larsseit.woff2")
+}
+
+a {
+	text-decoration: underline;
+	color: #1757AB
+}
+
+a.site-title, h1, h2, h3 {
+	font-family: "Larsseit", Helvetica, Arial, sans-serif;
+}
+
+body header.site-header {
+	background-color: #424242 !important;
+}
+
+header.site-header .site-nav a.page-link, 
+header.site-header a.site-title, 
+header.site-header a.site-title:visited {
+	color: white;
+	text-decoration: none;
+}
+
+footer h1 a, footer h1 a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+#search-container {
+	width: fit-content;
+	padding-top: 1px;
+}
+
+#search-container div {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 4px;
+}
+
+#search-container input {
+	margin-left: 8px;
+}
+
+strong {
+	font-weight: 600;
+}
+
+.post-content h2{
+	font-size: 26px !important;
+}
+
+p.field {
+	font-weight: 600;
+}
+
+div.subfield > p {
+	margin-left:10px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+blockquote {
+	font-size: inherit;
+	font-style: normal;
+	letter-spacing: inherit;
+	margin-bottom: 5px;
+	color: #595959;
+}
+
+blockquote p {
+	margin-bottom: 5px;
+}
+
+figcaption {
+	text-align: right;
+}
+
+#source-and-rights {
+    margin-bottom: 15px;
+}
+
+#source-and-rights p {
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+td {
+	font-size: 14px;
+}
+
+div.footer-col-1, div.footer-col-2 {
+	width: calc(50% - (30px / 2));
+}
+
+div.footer-col-3 {
+	width: calc(100% - (30px / 2));
+}
+
+div.footer-col-2 {
+	text-align: right;}
+
+div.footer-col-3 {
+	text-align: center;
+}
+
+
+img.college-logo {
+	max-width: 175px;
+}
+
+@media screen and (max-width: 600px) {
+	header.site-header .site-nav a.page-link {
+		color: #171717
+	}
+	footer.site-footer.h-card * {
+		text-align: center;
+	}
+	footer.site-footer.h-card div {
+		width: 100%;
+	} 
+	div.footer-col-1 {
+		margin-bottom: 0;
+	}
+	div.footer-col-1,
+	div.footer-col-2,
+	div.footer-col-3 {
+		padding: 0px;	
+	}
+	img.college-logo {
+		max-width: 125px;
+	}
+}
